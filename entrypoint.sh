@@ -7,13 +7,13 @@ cat << EOF > /etc/xray/config.json
 {
   "inbounds": [
     {
-      "port": $PORT,
+      "port": 8080,
       "protocol": "vless",
       "settings": {
         "decryption": "none",
         "clients": [
           {
-            "id": "$UUID"
+            "id": "raveesh"
           }
         ]
       },
