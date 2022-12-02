@@ -19,4 +19,4 @@ jobs:
         uses: denoland/deployctl@v1
         with:
           project: "stacx-docker-xray"
-          entrypoint: "./main.ts" # TODO: update entrypoint
+          entrypoint: "./Dockerfile" # TODO: update entrypoint
